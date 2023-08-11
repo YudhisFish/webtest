@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /*background webnya*/
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: skyblue;
+  }
+   
+  /*kotak buat judul*/
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: ghostwhite;
+  }
+  
+  /*font judul atas*/
+  .header h1 {
+    font-size: 75px;
+  }
+  
+  /*bar buat linknya*/
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(64, 14, 214);
+  }
+  
+  /*warna linknya*/
+  .topnav a {
+    float: left;
+    display: block;
+    color: ghostwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*kalo di hover linknya*/
+  .topnav a:hover {
+    background-color: gainsboro;
+    color: aquamarine;
+  }
+  
+  
+  .fakeimg {
+    background-color: lime;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: ghostwhite;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  a.one:link, a.one:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid darkblue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.one:hover, a.one:active {
+    background-color: darkblue;
+    color: white;
+  }
